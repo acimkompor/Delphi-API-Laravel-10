@@ -14,6 +14,15 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 ## Cara Cloning Laravel dari GitHub
 
 -   Ketikkan `git clone https://github.com/acimkompor/Delphi-API-Laravel-10.git`
+-   Masuk ke folder Delphi-API-Laravel-10 ketikkan `cd Delphi-API-Laravel-10`
+-   Kemudian ketikkan `composer update` agar laravel melengkapi file vendor tidak masuk di GitHub
+-   setelah itu copy kan file `.env.example` dan ubah namanya menjadi `.env`
+-   Kemudian ketikkan lagi `php artisan key:generate`
+-   Atur konfigurasi di file `.env` sesuai dengan koneksi ke database kalian.
+-   Buat database bari di PHPMyAdmin sesuai dengan konfigurasi di file `.env` nya
+-   Lanjut `php artisan migrate --seed`
+
+Aplikasi laravel sudah bisa digunakan
 
 ## License
 

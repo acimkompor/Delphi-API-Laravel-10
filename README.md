@@ -15,12 +15,13 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 -   Ketikkan `git clone https://github.com/acimkompor/Delphi-API-Laravel-10.git`
 -   Masuk ke folder Delphi-API-Laravel-10 ketikkan `cd Delphi-API-Laravel-10`
--   Kemudian ketikkan `composer update` agar laravel melengkapi file vendor tidak masuk di GitHub
+-   Kemudian ketikkan `composer update` agar laravel melengkapi file vendor yang tidak masuk di GitHub
 -   setelah itu copy kan file `.env.example` dan ubah namanya menjadi `.env`
--   Kemudian ketikkan lagi `php artisan key:generate`
+-   Kemudian ketikkan lagi `php artisan key:generate` agar dibuatkan otomatis APP_KEY di file `.env`
 -   Atur konfigurasi di file `.env` sesuai dengan koneksi ke database kalian.
--   Buat database bari di PHPMyAdmin sesuai dengan konfigurasi di file `.env` nya
+-   Buat database di PHPMyAdmin sesuai dengan konfigurasi di file `.env` nya
 -   Lanjut `php artisan migrate --seed`
+-   Cek database kalian apakah sudah dibuatkan beberapa tabel sesuai dengan project yang akan kita buat
 
 Aplikasi laravel sudah bisa digunakan
 
